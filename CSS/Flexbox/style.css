@@ -1,0 +1,113 @@
+/* .bloc1 {
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-color: lavender;
+  }
+  
+  .bloc2 {
+    float: right;
+    width: 50%;
+    height: 300px;
+    background-color: burlywood;
+  } */
+
+  /* .header{
+       float: inline-start;
+       height: 100px;
+       width: 100%;
+       background-color: lavender;
+  }
+  .container{
+       float: left;
+       width: 70%;
+       height: 300px;
+       background-color: purple;
+  }
+  .recommendation{
+       float: left;
+       width: 30%;
+       height: 300px;
+       background-color: blue;
+  }
+  .footer{
+       float: inline-end;
+       clear: both;
+       width: 100%;
+       background-color: rgb(222, 135, 142);
+       height: 100px;
+
+  }
+  */
+
+  /* .bloc-container {
+    
+    
+    display: flex;
+    justify-content: space-around;
+  }
+  .blocs {
+      
+    width: 100px;
+    height: 100px;
+  }
+  .bg-peru {
+    background-color: peru;
+  }
+  
+  .bg-turquoise {
+    background-color: paleturquoise;
+  }
+  .bg-violetred {
+    background-color: palevioletred;
+  }
+  
+ */
+
+/* .bloc-container{
+    display: flex;
+    border: 1px solid black;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blocs{
+    width: 100px;
+    height: 100px;
+
+}
+
+.bg-peru{
+    background-color: #718355;
+}
+
+.bg-turquoise{
+    background-color:#e26d5c ;
+}
+
+.bg-violetred{
+    background-color: #335c67;
+} */
+
+.bloc-container {
+    display: flex;
+    justify-content: center;
+  }
+  .blocs {
+    height: 100px;
+  }
+  .box-1 {
+    flex: 1;
+    background-color: peru;
+  }
+  
+  .box-2 {
+    flex: 1;
+    background-color: paleturquoise;
+  }
+  .box-3 {
+    flex: 2;
+    background-color: palevioletred;
+  }
+  
